@@ -1,7 +1,7 @@
 //Pennington, Thomas-100%
 //Boyd, Evie-100%
 //Chen, Jack-100%
-
+// Lab 1
 import java.util.Scanner;
 
 public class Retirement {
