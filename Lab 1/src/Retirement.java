@@ -1,7 +1,7 @@
 //Pennington, Thomas-100%
 //Boyd, Evie-100%
 //Chen, Jack-100%
-// Lab 1 Retirement Investment Calculator 
+// Lab 1: Retirement Investment Calculator 
 import java.util.Scanner;
 
 public class Retirement {
@@ -31,7 +31,7 @@ public class Retirement {
 				System.out.println("Error");}
 			while(reqincome < 0);
 		
-		// Annual Return for retirement 
+		// Annual Return for retirement and enter in decimal for e.g. .03
 		double annret;
 		do{
 		System.out.print("Please enter a retired Annual Return Percentage in decimal form between 0 and .03: ");
@@ -70,7 +70,7 @@ public class Retirement {
 				System.out.println("Error: not a natural number");}
 			while(yrswork < 0);
 			
-		// Annual work return percentage for investing mode
+		// Annual work return percentage for investing mode and enter in a decimal e.g. .07
 		double annwork;
 		do{
 		System.out.print("Please enter a working Annual Return Percentage in decimal form between 0 and .20: ");
@@ -88,7 +88,7 @@ public class Retirement {
 		
 		double calc = saved/form2; // The total amount that must be saved monthly to reached amount saved goal
 		
-		System.out.println(calc);
+		System.out.println("The amount of money to save each month is $" + calc);
 		
 		input.close(); // This closes the scanner user interface
 	}
